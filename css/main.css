@@ -1,0 +1,17 @@
+body{
+    
+}
+div.main{
+    display: flex;
+    background-color: #111024;
+    color: white;
+}
+div>div.left{
+    flex: 1;
+
+}
+div>div.right{
+    flex: 1;
+    height: 280;
+    width: 1200px;
+}
