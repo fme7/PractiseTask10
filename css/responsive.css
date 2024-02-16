@@ -1,0 +1,22 @@
+@media (max-width: 414px) {
+  div.common {
+    width: 350px;
+    height: 560px;
+    left: 25px;
+  }
+  div.main{
+    flex-direction: column-reverse;
+    width: 100px
+  }
+  div.main>div.left{
+    width: 160px;
+    height: 390px;
+    font-size: 10px;
+  }
+  div.main > div.right > img{
+    width: 50px;
+    height: 150px;
+    right: 600px;
+
+  }
+}
